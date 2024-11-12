@@ -1,0 +1,7 @@
+f=open("pic.jpg","rb")
+d=f.read()
+f.close()
+#print(d)
+f=open("piccpy.jpg","wb")
+print(f.write(d))
+f.close()
